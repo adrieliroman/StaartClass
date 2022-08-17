@@ -1,0 +1,126 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Padauk&display=swap');
+/*
+marron #A89488
+white #fffffff
+beje #F4E5DD
+verde #3B4733
+verdeclaro #DFF5F4
+*/
+html{
+    color: antiquewhite;
+    background-color:#803a14ab;
+    font-size: 62.5%;
+}
+body{
+    font-family:"Padauk",sans-serif;
+    
+}
+footer,section{
+    padding: 5rem;
+    max-width: 96rem;
+    margin: 0 auto;
+
+}
+footer{
+    flex-direction: column;
+}
+.center{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.nav{
+    padding: 1rem 1rem ;
+}
+.nav-link {
+    display: flex;
+    justify-content: flex-end;
+    gap: 1rem;
+    background-color: #F4E5DD;
+    font-size: 1.8rem;
+    text-transform: uppercase;
+    
+}
+.nav-link a{
+    text-decoration: none;
+    color: #3B4733;
+}
+.avatar{
+    border-radius: 100%;
+    width: 24rem;
+    height: 24rem;
+    margin-right: 7rem;
+}
+
+.mainTitle{
+    font-size: 4rem;
+    letter-spacing: 0.5rem;
+    
+}
+.mainDescription{
+    margin: 4rem 0;
+}
+.button{
+    border-radius: 0.5rem;
+    background-color:#DFF5F4;
+    color: #3B4733;
+    font-size: 1.6rem;
+    padding: 0.5rem 2.5rem;
+    text-decoration: none;
+}
+.about{
+    background-color: #F4E5DD;
+    color:#3B4733;
+}
+.project{
+    margin: 4rem 0;
+}
+h2{
+    font-size: 4rem;
+    font-weight: 700;
+}
+.imgProject{
+    width: 24rem;
+    height: 18rem;
+    margin-right: 2.5rem;
+    border-radius: 0.6rem;
+}
+.projectSize{
+    font-size: 3rem;
+}
+.socialMedia{
+    display: flex;
+    gap: 1rem;
+
+}
+@media(max-width:1200px){
+    .center{
+        flex-direction: column;
+    }
+    footer,section{
+       padding:5rem; 
+    }
+    .mainDescription{
+        margin: bottom 2rem;
+    }
+    .mainTitle{
+        font-size: 4rem;
+    }
+    .imgProject{
+        width: 38rem;
+        height: auto;
+    }
+    .nav-link{
+        justify-content: center;
+    }
+    .avatar{
+    border-radius: 100%;
+    width: 18rem;
+    height: 18rem;
+    margin-right: 0;
+
+    }
+    
+}
